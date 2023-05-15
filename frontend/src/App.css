@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+  padding  :0;
+  margin : 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  background-color:rgb(57, 57, 57);
+  color : #ff6601;
+
+}
+.login {
+  width : 100%;
+  height : 100vh;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction : column;
+
+}
+input {
+  width :auto;
+  padding : 6px;
+  margin: 2px;
+  outline: none;
+  border  :none;
+  height : 40px;
+  width : 99%;
+  margin : 1px;
+  
+  border-radius: 8px 8px 2px 2px;
+}
+.input2 {
+  border-radius: 2px 2px 8px 8px;
+
+}
+button{
+  width : auto;
+  padding : 5px 10px;
+  border-radius: 8px;
+  border : none;
+
+}
+
+.header div {
+
+  padding : 10px 30px;
+  color : white;
+  display  :flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+z-index: -21;
+}
+
+.inputside {
+  margin : 70px 0;
+  top : 0;
+  z-index  : 3323;
+  width : 50%;
+  
+  margin : auto;
+  margin-top : 20px;
+}
+.upload {
+  width : 30%;
+  border-radius: 20px;
+background-color: #ff6601;
+border : 2px solid #ff6601;
+color : white;
+font-weight: bold;
+height:40px;
+}
+.inputside input {
+  border-radius : 20px;
+  padding-left  :20px;
+}
+.image {
+ background-color: #fbbba4;
+ width : 300px;
+  margin : 0px auto;
+  border-radius: 0 0 20px 20px ;
+  color : white;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  padding : 20px 0 0 0;
+}
+.Images {
+  margin : 60px;
+}
+.image img {
+  border-radius: 15px 15px 00 0;
+}
+
+
+.showDetail {
+  position : fixed ;
+  top : 0;
+  left : 0;
+  width  : 100%;
+  height : 100vh;
+  background-color: #282c34f5;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.showDetail img {
+  width : 300px;
+  height : 300px;
+}
+.showDetail button {
+  position : absolute;
+  top  :70px;
+right : 70px;
+
+}
+button:hover {
+  color : white;
+  border : 2px solid #ff6601;
+  background-color: #282c34;
+  transition : 0.3s ease-in-out;
+
+}
+button {
+  margin  : 20px;
+  border : 2px solid white;
+}
+
+.loginn {
+  padding : 20px 2px;
+   background-color:#fbbba4;
+   flex-direction: column;
+   align-items: center;
+   justify-content: cFenter;
+   border-radius: 15px;
+   padding : 15px 9px; 
+   box-shadow: 1px 1px 10px 1px rgb(44, 44, 44);
+}
+form {
+  margin-bottom: 15px;
+}
+
+form button {
+  width : 99%;
+ margin : auto;
+ height : 35px;
+}
+.signup {
+  color : rgb(81, 81, 81);
+  font-size: 13px;
+  
+}
+.header div {
+  text-align: left;
+}
